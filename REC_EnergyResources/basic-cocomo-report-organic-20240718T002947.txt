@@ -1,0 +1,38 @@
+Basic COCOMO, using software project class: Organic
+Total lines of code  = 1824 (1,824 kLOC)
+Effort Applied   (E) =   4,511 [person-months] (2,4 * kLOC ^ 1,05)
+Development Time (D) =   4,432 [months] (2,5 * E ^ 0,38)
+People Required  (P) =   1,018 [number of] (E / D)
+
+/src/main/java/it/unisalento/rec/rec_energyresources/dto/ResourceDTO.java: 77 LOC
+/src/main/java/it/unisalento/rec/rec_energyresources/dto/InfoResourceDTO.java: 15 LOC
+/src/main/java/it/unisalento/rec/rec_energyresources/dto/ResourceBillDTO.java: 59 LOC
+/src/main/java/it/unisalento/rec/rec_energyresources/dto/ResourceListDTO.java: 11 LOC
+/src/main/java/it/unisalento/rec/rec_energyresources/dto/ResourceRequestDTO.java: 18 LOC
+/src/main/java/it/unisalento/rec/rec_energyresources/dto/ResourceCreditMemberDTO.java: 18 LOC
+/src/main/java/it/unisalento/rec/rec_energyresources/domain/Resource.java: 94 LOC
+/src/main/java/it/unisalento/rec/rec_energyresources/domain/ExceptionResponse.java: 21 LOC
+/src/main/java/it/unisalento/rec/rec_energyresources/service/RabbitMQService.java: 68 LOC
+/src/main/java/it/unisalento/rec/rec_energyresources/service/ResourceDetailsService.java: 122 LOC
+/src/main/java/it/unisalento/rec/rec_energyresources/security/CheckJwt.java: 33 LOC
+/src/main/java/it/unisalento/rec/rec_energyresources/security/JwtUtilities.java: 26 LOC
+/src/main/java/it/unisalento/rec/rec_energyresources/security/SecurityConstants.java: 4 LOC
+/src/main/java/it/unisalento/rec/rec_energyresources/exceptions/ResourceNotFoundException.java: 9 LOC
+/src/main/java/it/unisalento/rec/rec_energyresources/repositories/ResourceRepository.java: 12 LOC
+/src/main/java/it/unisalento/rec/rec_energyresources/configuration/CorsConfig.java: 14 LOC
+/src/main/java/it/unisalento/rec/rec_energyresources/configuration/RabbitMQConfig.java: 57 LOC
+/src/main/java/it/unisalento/rec/rec_energyresources/restcontrollers/ResourceController.java: 109 LOC
+/src/main/java/it/unisalento/rec/rec_energyresources/restcontrollers/RestExceptionsController.java: 15 LOC
+/src/main/java/it/unisalento/rec/rec_energyresources/RecEnergyResourcesApplication.java: 9 LOC
+/src/test/java/it/unisalento/rec/rec_energyresources/ResourceControllerTest.java: 193 LOC
+/src/test/java/it/unisalento/rec/rec_energyresources/RecEnergyResourcesApplicationTests.java: 9 LOC
+/build/reports/tests/test/js/report.js: 149 LOC
+/build/reports/tests/test/css/style.css: 66 LOC
+/build/reports/tests/test/css/base-style.css: 148 LOC
+/build/reports/tests/test/classes/it.unisalento.rec.rec_energyresources.ResourceControllerTest.html: 175 LOC
+/build/reports/tests/test/packages/it.unisalento.rec.rec_energyresources.html: 103 LOC
+/build/reports/tests/test/index.html: 133 LOC
+/build/test-results/test/TEST-it.unisalento.rec.rec_energyresources.ResourceControllerTest.xml: 57 LOC
+
+Excluded files in:
+	/.idea/

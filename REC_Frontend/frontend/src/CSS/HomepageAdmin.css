@@ -1,0 +1,111 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Allinea il logo e il pulsante verticalmente */
+    background-color: green;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.logo {
+    height: 40px;
+}
+
+.logout-link {
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.logout-link:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    display: flex;
+    flex: 1;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-item {
+    margin-bottom: 10px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.menu-item a:hover {
+    background-color: green;
+}
+
+/* Contenuto principale */
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+
+.manage-rec-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    max-height: 300px;
+    overflow-y: auto;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.manage-rec-menu li {
+    padding: 10px;
+}
+
+.manage-rec-menu li a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px; /* Dimensione del testo nel menu a tendina */
+}
+
+.manage-rec-menu li a:hover {
+    background-color: #f0f0f0;
+}
+
